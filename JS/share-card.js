@@ -11,7 +11,7 @@ function createShareModal() {
           <span class="close-modal" onclick="document.getElementById('shareModal').remove()">×</span>
           <h3>Share This Card</h3>
           <div class="share-buttons">
-            <a class="modal-share-button whatsapp-share" href="https://wa.me/?text=https://diplomat-rise.github.io/HUSSAM-OUSAMA-ASAAD/" target="_blank" title="Share on WhatsApp">
+            <a class="modal-share-button whatsapp-share" href="https://wa.me/?text=https://diplomat-rise.github.io/Heba-Ismail/" target="_blank" title="Share on WhatsApp">
               <i class="fab fa-whatsapp"></i>
             </a>
             <a class="modal-share-button facebook-share" href="https://www.facebook.com/sharer/sharer.php?u=https://diplomat-rise.github.io/Heba-Ismail/" target="_blank" title="Share on Facebook">
@@ -45,5 +45,6 @@ function createShareModal() {
 
   // Attach to Share Card button
   document.querySelector('.share-card-button').addEventListener('click', createShareModal);
+
 
 
